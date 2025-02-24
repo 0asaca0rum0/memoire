@@ -1,0 +1,35 @@
+# LaTeX auxiliary and temporary files
+*.aux
+*.log
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.bbl
+*.blg
+*.synctex.gz
+*.synctex
+*.fdb_latexmk
+*.dvi
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.ps
+*.upa
+*.upb
+
+# Editors and Build tools
+*.bak
+*.backup
+*.swp
+*.temp
+*.tmp
+*~
+Thumbs.db
+.DS_Store
