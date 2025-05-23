@@ -39,7 +39,7 @@ colorlinks=true,
 linkcolor=black,
 citecolor=black,
 urlcolor=blue}
-% \urlstyle{same}
+ \urlstyle{same}
 \usepackage[top=2.5cm,bottom=2.5cm,right=2.5cm,left=2.5cm]{geometry}
 \usepackage{changepage}
 
@@ -121,7 +121,12 @@ urlcolor=blue}
 
 \usepackage[bottom]{footmisc}
 
-
+% add polyglossia back for Arabic support
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{french}
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.3]{Amiri}
 
 
 
@@ -217,10 +222,10 @@ urlcolor=blue}
     \newpage}
     
 \renewcommand{\listalgorithmcfname}{Liste des algorithmes}
-\usepackage{polyglossia}
-\setmainlanguage{french}
-\setotherlanguage{arabic}
-\newfontfamily\arabicfont[Script=Arabic,Scale=1.3]{Amiri}
+
+% \setmainlanguage{french}
+% \setotherlanguage{arabic}
+% \newfontfamily\arabicfont[Script=Arabic,Scale=1.3]{Amiri}
 
 \newcommand{\mychapter}[2]{
     
@@ -277,10 +282,9 @@ urlcolor=blue}
 \pagenumbering{arabic}
 \include{05-Introduction}
 \include{06-Art}
-\include{07-Existant}
-\include{08-Besoins}
-\include{09-Conception}
-\include{10-Realisation}
+\include{07-Method}
+\include{08-Results}
+\include{09-Discussion}
 \include{11-Conclusion}
 
 %choix du style de la biblio

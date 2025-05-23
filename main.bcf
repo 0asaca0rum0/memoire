@@ -168,7 +168,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortlocale</bcf:key>
-      <bcf:value>french</bcf:value>
+      <bcf:value>american</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
@@ -2373,100 +2373,13 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="7" intorder="1">mennis_spatial_2009</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">shekhar_identifying_2011</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">kalinic_kernel_2018</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">kalinic_kernel_2018</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">hart_kernel_2014</bcf:citekey>
-    <bcf:citekey order="11" intorder="2">ansari_methods_2014</bcf:citekey>
-    <bcf:citekey order="11" intorder="3">kalinic_kernel_2018</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">anderson_kernel_2009</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">montella_comparative_2010</bcf:citekey>
-    <bcf:citekey order="12" intorder="3">yu_comparative_2014</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">lin_hotspot_2010</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">bagstad_evaluating_2017</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">chang_introduction_2019</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">chang_introduction_2019</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">hart_kernel_2014</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">gatrell_spatial_1996</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">hart_kernel_2014</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">hart_kernel_2014</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">fotheringham_quantitative_2007</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">romano_visualizing_2017</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">romano_visualizing_2017</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">hart_kernel_2014</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">chang_introduction_2019</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">hart_kernel_2014</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">aguilar_distribution_2013</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">aguilar_distribution_2013</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">getis_analysis_1992</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">kalinic_kernel_2018</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">getis_analysis_1992</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">kalinic_kernel_2018</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">getis_analysis_1992</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">aguilar_distribution_2013</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">aguilar_distribution_2013</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">kalinic_kernel_2018</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">kalinic_kernel_2018</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">chang_introduction_2019</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">davendra_traveling_2010</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">gutin_traveling_2006</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">diderich_solving_1996</bcf:citekey>
-    <bcf:citekey order="41" intorder="2">cotta_hybridizing_1995</bcf:citekey>
-    <bcf:citekey order="41" intorder="3">tschoke_solving_1995</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">anbuudayasankar_survey_2014</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">anbuudayasankar_survey_2014</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">rosenkrantz_analysis_1977</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">johnson_table_1995</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">golden_approximate_1980</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">anbuudayasankar_survey_2014</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">davendra_traveling_2010</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">golden_approximate_1980</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">helsgaun_effective_2000</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">johnson_asymptotic_1996</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">golden_approximate_1980</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">blum_metaheuristics_2003</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">bianchi_survey_2009</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">davendra_traveling_2010</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">johnson_traveling_1995</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">davendra_traveling_2010</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">paletta_period_2002</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">cordeau_tabu_1997</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">chao_new_1995</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">chao_new_1995</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">cordeau_tabu_1997</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">paletta_period_2002</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">bertazzi_improved_2004</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">paletta_period_2002</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">hemmelmayr_variable_2009</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">gulczynski_period_2011</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">chao_new_1995</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">cacchiani_set-covering_2014</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">hemmelmayr_variable_2009</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">liu_hybridization_2014</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">eilon_distribution_1971</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">christofides_period_1984</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">chao_new_1995</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">cordeau_tabu_1997</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">liu_hybridization_2014</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">cacchiani_set-covering_2014</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">chao_new_1995</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">djezzy_propos_2019</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">djezzy_propos_2019</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">djezzy_vision_2019</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">djezzy_vision_2019</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">dabi-schwebel_transformation_2019</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">web_image_point_de_vente_2019</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">web_image_point_de_vente_2019</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">cordeau_tabu_1997</bcf:citekey>
-    <bcf:citekey order="87" intorder="1">hemmelmayr_variable_2009</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">hemmelmayr_variable_2009</bcf:citekey>
-    <bcf:citekey order="89" intorder="1">helsgaun_effective_2000</bcf:citekey>
-    <bcf:citekey order="89" intorder="2">helsgaun_general_2009</bcf:citekey>
-    <bcf:citekey order="90" intorder="1">wetschoreck_rip_2020</bcf:citekey>
-    <bcf:citekey order="91" intorder="1">kassambara_determining_nodate</bcf:citekey>
-    <bcf:citekey order="92" intorder="1">kassambara_determining_nodate</bcf:citekey>
-    <bcf:citekey order="93" intorder="1">noauthor_route_2020</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">menegola2017knowledge</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">ha2020efficientnet</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">disanto2022contextual</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">fedus2021switch</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">riquelme2021scaling</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">codella2018skin</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">tschandl2018ham10000</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

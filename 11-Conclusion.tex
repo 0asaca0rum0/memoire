@@ -1,72 +1,24 @@
-\chapter*{Conclusion et perspectives}
-\addcontentsline{toc}{chapter}{Conclusion et perspectives}
-\markboth{Conclusion et perspectives}{Conclusion et perspectives}
+\chapter*{Conclusion and future outlook}
+
 \label{sec:conclusion}
 
 \clearpage
 
-\section*{Conclusion générale}
+\section*{Conclusion}
+In this thesis, we have developed and evaluated a robust end-to-end pipeline for automated skin lesion classification, based on a Mixture-of-Experts (MoE) architecture with Transformer-based feature extractors. Leveraging a balanced, augmented HAM10000 dataset and mixed-precision training on consumer-grade hardware, our model achieved 93\% overall accuracy and 84\% balanced accuracy on a held-out test set. Key innovations include dynamic expert routing, a load-balancing regularizer to ensure equitable expert utilization, and deployment-ready export to TorchScript/ONNX formats. These results demonstrate the viability of the MoE approach for dermatological image analysis, outperforming or matching state-of-the-art benchmarks while maintaining deployment flexibility.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
-    
-    \medskip
-    
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
-    
-    \medskip
-    
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
-    
-    \medskip
-    
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
-    
-    \medskip
-    
-    Les contributions que notre projet a pu apporter peuvent se résumer dans les points suivants :
-    \medskip
-    \begin{itemize}
-        \item Une analyse de la distribution géographique des réalisations des points de vente et la distinction en hotspot et coldspot, exploitable dans d'autres projets et analyses.
-        \item Un modèle de classification des points de vente de grande précision qui prend en considération les réalisations, la clientèle ainsi que le positionnement géographique.
-        \item Un algorithme d'optimisation des itinéraires des points de vente qui a pu générer des nouveaux meilleurs scores pour les instances de tests.
-        \item Une plateforme permettant la gestion et la génération des plans de visite des points de vente.
-    \end{itemize}
-    
-    
-    
-
-\section*{Perspectives}
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.:
-    \medskip
-    
-    \renewcommand{\labelitemi}{$\bullet$}
-    \begin{itemize}
-        \item Le développement d'une application mobile pour l'animateur de zone :
-        
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
-        
-        \medskip
-        
-        \item L'amélioration de l'algorithme d'optimisation : 
-        
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
-    \end{itemize}
-    
-    
-    
-\section*{Appréciation personnelle}
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
-
-
-
-
-
-    
+\section*{Future outlook}
+Building on these findings, future work will focus on transfer to clinical settings and advanced edge deployments. We plan to:
+\begin{itemize}
+  \item Integrate additional dermoscopic and non-dermoscopic datasets to improve generalization across imaging devices and populations.
+  \item Incorporate patient metadata (age, lesion location, history) into the gating network to enhance diagnostic context.
+  \item Evaluate post-training quantization and structured pruning on Coral Dev Boards with Edge TPUs for real-time, low-power inference.
+  \item Explore semi-supervised and self-supervised techniques to leverage unlabeled clinical images and reduce annotation costs.
+  \item Conduct prospective clinical validation studies to assess model impact on diagnostic workflow and patient outcomes.
+\end{itemize}
 
 %%% Local Variables: 
 %%% mode: latex
 %%% TeX-master: "isae-report-template"
-%%% End: 
+%%% End:
 

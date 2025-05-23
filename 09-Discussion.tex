@@ -1,0 +1,22 @@
+\chapter{discussion}
+
+\newpage
+
+\section{Introduction}
+In this chapter, we interpret our model’s quantitative results (see previous chapter), discuss their significance relative to existing literature, identify limitations, and outline avenues for future work.
+
+\section{Interpretation of Key Findings}
+Our Mixture-of-Experts framework achieved an overall accuracy of 93\% and balanced accuracy of 84\% on the HAM10000 test set. High performance on non-malignant classes ("nv": P=0.98, R=0.97; "vasc": P=R=1.00) indicates excellent recognition of common and visually distinct lesion types. In contrast, lower recall for actinic keratoses ("akiec": R=0.65) and melanoma ("mel": R=0.74) highlights challenges in detecting more subtle or heterogeneous malignant presentations.
+
+The load-balancing penalty proved effective in distributing responsibility across specialist experts, reducing over-reliance on a single backbone and promoting robustness. The Transformer-based self-attention within each expert enhanced global context modeling, contributing to strong per-class F1-scores.
+
+
+\section{Limitations}
+all though our model achieved strong performance and high generalizability, the imbalance in the dataset as shown in the previous chapter, with 7 classes and 1000 images per class, can lead to overfitting on the most frequent classes. This imbalance may hinder the model's ability to generalize to less represented classes, such as "akiec" and "mel". Additionally, the model's reliance on a single dataset limits its applicability to real-world clinical scenarios, where variations in imaging conditions and patient demographics are common.    
+\section{Future Work}
+To address these limitations, future studies will: (1) incorporate additional dermoscopic datasets to enhance domain coverage; (2) evaluate post-training quantization and pruning on Coral Dev Boards with Edge TPUs for real-time inference; (3) explore integration of patient metadata (age, lesion location) into the gating network; and (4) investigate semi-supervised learning to leverage unlabeled clinical images.
+
+\section{Conclusion}
+This discussion has placed our results in context, showing that dynamic expert routing and balanced specialization yield strong performance on skin lesion classification. Addressing the identified limitations and extending to edge platforms will guide subsequent advancements in deployable, scalable dermatology AI systems.
+
+
