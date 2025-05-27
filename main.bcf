@@ -2380,6 +2380,23 @@
     <bcf:citekey order="5" intorder="1">riquelme2021scaling</bcf:citekey>
     <bcf:citekey order="6" intorder="1">codella2018skin</bcf:citekey>
     <bcf:citekey order="7" intorder="1">tschandl2018ham10000</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">fedus2021switch</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">shazeer2017outrageously</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">goodfellow2016deep</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">litjens2017survey</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">goodfellow2016deep</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">litjens2017survey</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">goodfellow2016deep</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">litjens2017survey</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">goodfellow2016deep</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">litjens2017survey</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">goodfellow2016deep</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">litjens2017survey</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">litjens2017survey</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">brinker2020comparative</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">lecun2015deep</bcf:citekey>
+    <bcf:citekey order="15" intorder="3">krizhevsky2012imagenet</bcf:citekey>
+    <bcf:citekey order="15" intorder="4">litjens2017survey</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
