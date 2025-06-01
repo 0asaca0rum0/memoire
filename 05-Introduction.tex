@@ -1,12 +1,12 @@
-\chapter*{Introduction générale}
-\addcontentsline{toc}{chapter}{Introduction générale}
-\markboth{Introduction générale}{Introduction générale}
+\chapter*{General Introduction}
+\addcontentsline{toc}{chapter}{General Introduction}
+\markboth{General Introduction}{General Introduction}
 \label{chap:introduction}
 %\minitoc
 
-\section*{Contexte}
+\section*{Context}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
+In many remote or underserved regions, access to specialized medical care remains limited due to a lack of infrastructure and healthcare professionals. At the same time, skin cancer, with melanoma being the most dangerous form, represents a major public health issue: early diagnosis significantly increases the chances of recovery. Telemedicine emerges as a promising solution to reduce these geographical and economic barriers by offering remote consultation services. This thesis presents DermoSxpert, a digital telemedicine platform integrating an AI-powered dermatological image analysis tool aimed at improving access to early skin cancer diagnoses.
 
 \medskip
 
@@ -14,12 +14,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod n
 
 \medskip
 
-\section*{Problématique}
+\section*{Problem Statement}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
+Despite technological advancements in medical imaging and deep learning, the integration of diagnostic support solutions into telemedicine platforms remains insufficient. The main challenges lie in building robust models capable of generalizing across heterogeneous datasets, balancing diagnostic accuracy with resource constraints, and achieving clinical acceptance of AI-provided recommendations. This work addresses these issues by developing and evaluating a Mixture-of-Experts architecture tailored for dermatoscopic image analysis.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus. Etiam sollicitudin blandit ante. Vivamus blandit rhoncus tincidunt. Morbi sit amet congue purus. Praesent interdum gravida congue. Donec fermentum dui fermentum maximus rutrum.
+\medskip
 
+\section*{Objectives}
 
-
-\section*{Objectifs}
+The objectives of this thesis are:
+\begin{enumerate}
+    \item Design and implement the DermoSxpert platform for dermatological telemedicine.
+    \item Develop a skin image classification model based on a Mixture-of-Experts architecture capable of leveraging multiple specialized networks.
+    \item Evaluate the model's performance on HAM10000 and ISIC datasets, comparing two architecture variants (Small Watson and Large Accurate).
+    \item Compare the obtained results to the state of the art and analyze the system's ability to perform reliable early diagnoses.
+    \item Discuss deployment challenges in resource-limited settings and propose optimization strategies for use on Edge platforms.
+\end{enumerate}

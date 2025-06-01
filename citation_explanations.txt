@@ -1,0 +1,68 @@
+menegola2017knowledge:
+  - Citation about: Knowledge Transfer for Melanoma Screening with Deep Learning
+  - Cited in: 06-Art.tex, line 18 for their systematic evaluation of transfer learning strategies.
+
+ha2020efficientnet:
+  - Citation about: Identifying Melanoma Images using EfficientNet Ensemble, solution to SIIM-ISIC Melanoma Classification Challenge
+  - Cited in: 06-Art.tex, line 39 (as \textcite{ha2020efficientnet}) for their proposed EfficientNet ensemble approach with patient metadata.
+
+disanto2022contextual:
+  - Citation about: Leveraging Contextual Data Augmentation for Generalizable Melanoma Detection
+  - Cited in: 06-Art.tex, line 49 (as \textcite{disanto2022contextual}) for their custom contextual data augmentation pipeline.
+
+fedus2021switch:
+  - Citation about: Switch Transformers for scaling to trillion parameter models with simple and efficient sparsity
+  - Cited in: 06-Art.tex, line 71 for introducing the Switch Transformer model.
+
+riquelme2021scaling:
+  - Citation about: Scaling Vision with Sparse Mixture of Experts
+  - Cited in: 06-Art.tex, line 91 for extending sparse MoE to vision with the V-MoE model.
+
+tschandl2018ham10000:
+  - Citation about: The HAM10000 dataset, a large collection of dermatoscopic images of common pigmented skin lesions
+
+codella2018skin:
+  - Citation about: Skin Lesion Analysis Toward Melanoma Detection 2018, a challenge by ISIC
+
+jacobs1991adaptive:
+  - Citation about: Adaptive mixtures of local experts
+
+shazeer2017outrageously:
+  - Citation about: Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer
+  - Cited in: 07-Method.tex, line 131 (also line 143) as the source for Top-k Expert Selection equation and Generalist Bias Floor concept.
+
+shazeer2017experts:
+  - Citation about: The Sparsely-Gated Mixture-of-Experts Layer (duplicate of shazeer2017outrageously but as article)
+
+shazeer2017loadbalancing:
+  - Citation about: Balanced Mixture-of-Experts and Load-Balancing Penalty
+  - Cited in: 07-Method.tex, line 137 as the source for the Load-Balancing Penalty equation.
+
+dosovitskiy2021animage:
+  - Citation about: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Vision Transformer - ViT)
+
+hinton2015distilling:
+  - Citation about: Distilling the Knowledge in a Neural Network (Knowledge Distillation)
+
+redmon2016yolo:
+  - Citation about: You Only Look Once (YOLO): Unified, Real-Time Object Detection
+
+lecun2015deep:
+  - Citation about: Deep Learning (general overview)
+
+brinker2020comparative:
+  - Citation about: A Comparative Study of Convolutional Neural Networks for Skin Cancer Detection in Dermoscopic Images
+
+krizhevsky2012imagenet:
+  - Citation about: ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)
+
+litjens2017survey:
+  - Citation about: A Survey on Deep Learning in Medical Image Analysis
+  - Cited in: 07-Method.tex, line 119 for the definition of Balanced Accuracy.
+
+goodfellow2016deep:
+  - Citation about: Deep Learning (textbook by Goodfellow, Bengio, Courville)
+
+fortune2024telemedicine:
+  - Citation about: Telemedicine Market Size, Share & COVID-19 Impact Analysis by Fortune Business Insights
+  - Cited in: memoir.tex, line 176 for telemedicine market size and growth projection.

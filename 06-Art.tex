@@ -12,7 +12,8 @@ The Area Under the Receiver Operating Characteristic Curve (AUC) is a widely use
 This section examines three pivotal contributions to automated melanoma screening, detailing their methodologies, results, and implementation nuances.
 
 \subsection{Knowledge Transfer Protocols (Menegola et al., 2017)}
-\textcite{menegola2017knowledge} conducted a systematic evaluation of transfer learning strategies. Their experimental design included:
+In their work, Menegola et al. \cite{menegola2017knowledge} conducted a systematic evaluation of various transfer learning strategies for melanoma screening. They explored different pre-trained CNN architectures and fine-tuning techniques, providing valuable insights into the effectiveness of knowledge transfer in this domain. Their findings highlight the importance of selecting appropriate source domains and fine-tuning strategies to achieve optimal performance in melanoma classification tasks.
+
 \begin{itemize}
   \item Pre-training on ImageNet and fine-tuning on the Kaggle Diabetic Retinopathy dataset.
   \item Single-step transfer (ImageNet→Melanoma) vs \\ double transfer (ImageNet→Retinopathy→Melanoma).
@@ -42,7 +43,8 @@ They reported AUCs of 80.7\% (single transfer) and 84.5\% (double transfer) on t
 \end{figure}
 
 \subsection{EfficientNet Ensemble Approach (Ha et al., 2020)}
-\textcite{ha2020efficientnet} proposed an ensemble of diverse EfficientNet backbones, combined with patient-level metadata (age, sex, lesion location). Key aspects include:
+To address the challenges of melanoma classification, Ha et al. \cite{ha2020efficientnet} proposed an ensemble approach based on the EfficientNet architecture. Their method incorporates patient metadata, such as age and sex, to improve the accuracy of melanoma detection. By combining multiple EfficientNet models and leveraging contextual information, their solution achieved state-of-the-art results in the SIIM-ISIC Melanoma Classification Challenge.
+
 \begin{enumerate}
   \item Integration of 9 EfficientNet variants (B0--B8) with varying input sizes.
   \item Use of diagnosis-level labels to refine class definitions.
@@ -52,7 +54,8 @@ Their solution achieved a cross-validated AUC of 0.96 on the validation set and 
 
 
 \subsection{Contextual Data Augmentation (DiSanto et al., 2022)}
-\textcite{disanto2022contextual} introduced a custom augmentation pipeline targeting real-world variability. Their methodology involved:
+DiSanto et al. \cite{disanto2022contextual} focused on improving the generalization capabilities of melanoma detection models by leveraging contextual data augmentation. They developed a custom data augmentation pipeline that generates realistic skin lesion images with diverse contextual variations. Their approach aims to enhance the robustness of melanoma classifiers by exposing them to a wider range of imaging conditions and reducing overfitting to specific datasets.
+
 \begin{itemize}
   \item Scale jittering to simulate different camera distances.
   \item Random brightness and contrast adjustments for lighting conditions.
@@ -104,7 +107,7 @@ Mixture of Experts (MoE) is an ensemble strategy that combines multiple speciali
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{switch.jpg}
+  \includegraphics[width=0.5\textwidth]{switch.png}
   \caption{diagram of a switch MOE.}
   \label{fig:switch-transformer}
 \end{figure}

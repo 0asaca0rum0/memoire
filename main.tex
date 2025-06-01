@@ -1,7 +1,7 @@
 \documentclass[a4paper,12pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{fontenc}
-\usepackage[french, arabic]{babel} % If you write in French
+\usepackage[english,french,arabic]{babel} % Main document in English
 \usepackage{a4wide}
 \usepackage{graphicx}
 \usepackage{placeins}
@@ -12,6 +12,7 @@
 \usepackage{wrapfig}
 \usepackage{subcaption}
 \usepackage{color, colortbl}
+\usepackage{booktabs}
 \definecolor{Gray}{gray}{0.9}
 \definecolor{LightCyan}{rgb}{0.88,1,1}
 \usepackage{longtable}
@@ -48,13 +49,13 @@ urlcolor=blue}
 \usepackage{longtable}
 
 \usepackage{xltabular}
-\renewcommand{\tablename}{Tableau}
+\renewcommand{\tablename}{Table}
 \renewcommand{\figurename}{Figure}
 
 
 
 %pour les références bibliographiques
-\usepackage[citestyle=authoryear,bibstyle=authoryear,doi=false,isbn=false,eprint=false,maxcitenames=1,uniquelist=false,backend=biber]{biblatex}
+\usepackage[citestyle=numeric,bibstyle=numeric,sorting=none,doi=false,isbn=false,eprint=false,backend=biber]{biblatex}
 \addbibresource{references.bib}
 
 \AtEveryBibitem{
@@ -221,7 +222,7 @@ urlcolor=blue}
     \addtocounter{page}{-1}%
     \newpage}
     
-\renewcommand{\listalgorithmcfname}{Liste of algorithms}
+\renewcommand{\listalgorithmcfname}{List of algorithms}
 
 % \setmainlanguage{french}
 % \setotherlanguage{arabic}
@@ -299,7 +300,7 @@ urlcolor=blue}
 \appendix
 \appendixpage
 \input{12-Annexe.tex}
-
+\include{memoir}
 
 \clearpage
 \thispagestyle{empty}
